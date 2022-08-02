@@ -9,7 +9,6 @@ import QueryClientProvider from '@global-libs/react-query';
 import DesignSystemProvider from '@global-libs/styled-components';
 import '@styles/globals.css';
 import '@global-libs/i18n';
-import '@fonts/index.css';
 import { WEB_URL } from '@configs/environment';
 
 export default function App({ Component, pageProps }: LayoutAppProps) {

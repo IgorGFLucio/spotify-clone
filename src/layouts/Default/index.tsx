@@ -9,12 +9,10 @@ const Container = styled.div`
   flex-direction: column;
   min-height: 100vh;
   height: 100%;
-  background-color: ${(props) => props.theme.color.beige[200]};
 `;
 
 const Wrap = styled.div`
   flex: 1 1 0%;
-  background-color: ${(props) => props.theme.color.beige[200]};
 `;
 
 const Default = ({ children }: Props) => {

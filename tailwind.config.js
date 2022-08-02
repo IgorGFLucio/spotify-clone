@@ -13,43 +13,7 @@ module.exports = {
       width: {},
       backgroundColor: {},
       borderColor: {},
-      colors: {
-        black: {
-          0: `#000`,
-          200: `#33313A`,
-        },
-        green: {
-          200: `#C9E265`,
-        },
-        orange: {
-          400: `#F8AF41`,
-          600: `#F47133`,
-        },
-        salmon: {
-          200: `#FFD4BA`,
-          300: `#FFB587`,
-        },
-        beige: {
-          50: `#FFEAC6`,
-          100: `#FFEDD2`,
-          200: `#FEF3E3`,
-          300: `#FBEAD2`,
-          400: `#F9C374`,
-          500: `#EAD0A9`,
-          600: `#FDDEAD`,
-        },
-        grey: {
-          50: `#d9d9d9`,
-          100: `#F8F8F8`,
-          900: `#101828`,
-        },
-        brown: {
-          500: `#A47459`,
-        },
-        red: {
-          400: `#e52510`,
-        },
-      },
+      colors: {},
       textColor: {},
       fontSize: {},
       fontFamily: {
