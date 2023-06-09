@@ -22,7 +22,6 @@ const nextConfig = {
   },
   compiler: {
     styledComponents: true,
-    swcMinify: true,
   },
   reactStrictMode: true,
   ...config,
