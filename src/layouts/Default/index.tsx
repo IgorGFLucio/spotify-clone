@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Sidebar from '@global-components/Sidebar';
 
 type Props = {
   children: React.ReactNode;
@@ -13,13 +14,16 @@ const Container = styled.div`
 
 const Wrap = styled.div`
   flex: 1 1 0%;
-  background-color: #121212;
+  background-color: #000000;
+  display: flex;
+  padding: 0.5rem;
 `;
 
 const Default = ({ children }: Props) => {
   return (
     <Container>
       <Wrap>
+        <Sidebar />
         <div>{children}</div>
       </Wrap>
     </Container>

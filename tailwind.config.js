@@ -13,7 +13,15 @@ module.exports = {
       width: {},
       backgroundColor: {},
       borderColor: {},
-      colors: {},
+      colors: {
+        black: {
+          700: `#121212`,
+          900: `#000000`,
+        },
+        gray: {
+          300: `#b3b3b3`,
+        },
+      },
       textColor: {},
       fontSize: {},
       fontFamily: {
